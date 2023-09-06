@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Z-INDEX</title>
+	<style>
+		.box-orange {   
+ position: relative;       
+  background: orange;
+  z-index: 1;
+  height: 200px;
+  width: 200px;
+       
+}
+
+.box-blue {
+    position: absolute;
+    z-index: 2;
+  background: lightskyblue;
+  height: 200px;
+  width: 200px; 
+  left: 60px; 
+  top: 60px; 
+  
+}
+.box-green {
+    position: absolute;
+    z-index: 3;
+  background: lightgreen;
+  height: 200px;
+  width: 200px; 
+  left: 100px; 
+  top: 110px; 
+  
+  
+}
+
+		</style>
+</head>
+<body>
+    
+	<div class="box-orange"><b>z-index:1</b></div>
+	<div class="box-blue"><b>z-index:2</b></div>
+    <div class="box-green"><b>z-index:3</b></div>
+  </body>

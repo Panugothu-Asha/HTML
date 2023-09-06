@@ -1,0 +1,51 @@
+<!doctype html>
+<title>Example</title>
+<style>
+ * {
+   box-sizing: border-box;
+  }
+.container { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  flex-wrap: wrap;
+  } 
+.container > div {
+  font-size: 5vw;
+  padding: .5em;
+  color: wheat;
+  margin: 10px;
+  border-radius: 3px;
+  background:rgb(36, 248, 36);
+  border: 5px solid black;
+}
+
+.container > div:nth-child(even) {
+  width: 20%;
+  }
+.container > div:nth-child(2),
+.container > div:nth-child(4),
+.container > div:nth-child(9) {
+  width: 60%;
+  }  
+body {
+  margin: 0;
+}
+</style>
+<div class="container">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
